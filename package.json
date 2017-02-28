@@ -1,6 +1,6 @@
 {
   "name": "preact-swipe-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/preact-swipe-container.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env=dev --progress --inline --colors",

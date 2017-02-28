@@ -7,7 +7,7 @@ import {h, Component} from 'preact';
 // 滚动速度基准值
 const SPEED = 1000;
 
-export default class ScrollContainer extends Component {
+export default class SwipeContainer extends Component {
 	constructor(props) {
 		super(props);
 

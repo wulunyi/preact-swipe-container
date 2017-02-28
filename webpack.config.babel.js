@@ -14,7 +14,7 @@ let SRC_PATH  = path.resolve('src');
 let DIST_PATH = path.resolve('dist');
 let LIB_PATH  = path.resolve('lib');
 
-let enter = ENV === 'development' ? 'test/test.jsx' : 'src/preact-scroll-container.jsx';
+let enter = ENV === 'development' ? 'test/test.jsx' : 'src/preact-swipe-container.jsx';
 
 module.exports = {
 	entry: {
@@ -85,7 +85,7 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.NoErrorsPlugin(),
+		new webpack.NoEmitOnErrorsPlugin(),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify(ENV)
 		}),
