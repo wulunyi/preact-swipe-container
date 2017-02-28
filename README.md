@@ -3,16 +3,16 @@ The component of preact
 
 ## use
 ```javascript
-import ScrollContainer from 'preact-scroll-container';
+import SwipeContainer from 'preact-swipe-container';
 ...
- <ScrollContainer calss="container" currentPage="0" totalPage="4" soft={true} onChange={(num)=>{console.log(num)}}>
+ <SwipeContainer calss="container" currentPage="0" totalPage="4" soft={true} onChange={(num)=>{console.log(num)}}>
     <ul>
         <li>...</li>
         <li>...</li>
         <li>...</li>
         <li>...</li>
     </ul>
- </ScrollContainer>
+ </SwipeContainer>
  ...
 
 ```

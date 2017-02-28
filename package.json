@@ -1,13 +1,13 @@
 {
-  "name": "preact-scroll-container",
-  "version": "1.0.1",
-  "main": "./lib/preact-scroll-container.js",
+  "name": "preact-swipe-container",
+  "version": "1.0.0",
+  "main": "./lib/preact-swipe-container.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env=dev --progress --inline --colors",
     "build": "cross-env NODE_ENV=production webpack --progress --profile --colors"
   },
   "repository": {
-    "url": "git@github.com:wulunyi/preact-scroll-container.git",
+    "url": "git@github.com:wulunyi/preact-swipe-container.git",
     "type": "git"
   },
   "author": "吴伦毅 <wulunyi@weidian.com>",

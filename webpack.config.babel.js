@@ -22,9 +22,9 @@ module.exports = {
 	},
 
 	output: {
-		filename: 'preact-scroll-container.js',
+		filename: 'preact-swipe-container.js',
 		path    : ENV === 'development' ? DIST_PATH : LIB_PATH,
-		library : 'ScrollContainer',
+		library : 'SwipeContainer',
 		libraryTarget :  'umd',
 		umdNamedDefine: true
 	},
