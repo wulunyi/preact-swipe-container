@@ -1,0 +1,33 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 70vh;
+  overflow: hidden;
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300%;
+    background: black;
+    overflow: hidden;
+
+    li{
+      float: left;
+      width: 100vw;
+      height: 50vh;
+    }
+
+    li:first-child{
+      background: blue;
+    }
+
+    li:last-child{
+      background: red;
+    }
+  }
+}
