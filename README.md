@@ -5,7 +5,7 @@ The component of preact
 ```javascript
 import ScrollContainer from 'preact-scroll-container';
 ...
- <ScrollContainer currentPage="0" totalPage="4" soft={true}>
+ <ScrollContainer calss="container" currentPage="0" totalPage="4" soft={true} onChange={(num)=>{console.log(num)}}>
     <ul>
         <li>...</li>
         <li>...</li>
@@ -15,4 +15,23 @@ import ScrollContainer from 'preact-scroll-container';
  </ScrollContainer>
  ...
 
+```
+
+```sass
+.container{
+	width: 100vw;
+	height: 100px;
+	overflow: hidden;
+
+	ul{
+		width: 300%;
+		overflow: hidden;
+
+		li{
+			float: left;
+			width: 100vw;
+			height: 100px;
+		}
+	}
+}
 ```
